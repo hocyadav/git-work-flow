@@ -19,12 +19,12 @@ const person = [
 //console.log(person);
 console.log(person[0]);
 
-const {fname, lname} = person[0];//extract value from json
+const {fname, lname} = person[0];//extract value from json, fname and lname are now local variable
 console.log(fname);
 console.log(fname, lname);//print multiple value
 
 const { address:{country} } = person[0];
-console.log(country);
+console.log(country);//conuntry is local variable now
 
 
 //2. add new value

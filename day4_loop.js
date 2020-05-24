@@ -40,7 +40,7 @@ for(let i = 0; i < person.length; i++) {
     //console.log(person[i].fname);
 }
 //m2
-for(let p of person) {
+for(let p of person) {//in java we use ':' in place of 'of'
     //console.log(p.fname);
 }
 

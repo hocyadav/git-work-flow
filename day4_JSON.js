@@ -22,7 +22,7 @@ const person = [
     }
 ];
 
-
+//json : stringify and parse method
 const jsonString = JSON.stringify(person);
 console.log(jsonString);//receive from server - json in string
 
