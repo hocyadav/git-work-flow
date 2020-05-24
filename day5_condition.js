@@ -64,7 +64,7 @@ let animal = 'cat';
 const likesCats = animal == 'cat' ? true : false;//first execute animal == 'cat'
 console.log(likesCats);
 
-//switch
+//switch..
 
 animal = 'bird';
 switch (animal) {
